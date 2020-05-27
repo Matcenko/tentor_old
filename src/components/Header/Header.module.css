@@ -1,0 +1,5 @@
+@value redBasic from '../../css/colors.css';
+
+.test {
+    color: redBasic;
+}
