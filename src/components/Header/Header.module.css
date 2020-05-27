@@ -1,5 +1,64 @@
-@value redBasic from '../../css/colors.css';
+@value whiteBasic from '../../css/colors.css';
+@value blackBasic from '../../css/colors.css';
+@value blueBasic from '../../css/colors.css';
+@value greyLight from '../../css/colors.css';
 
-.test {
-    color: redBasic;
+header {
+    position: fixed;
+    width: calc(100% - 96px);
+    padding: 18px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: whiteBasic;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    font-family: Alef, sans-serif;
+    color: blackBasic;
+}
+
+.menuWrapper {
+    flex-grow: 8;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li:hover:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: greyLight;
+    cursor: pointer;
+}
+
+.rightMenu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    position: relative;
+    bottom: 2px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.binoculars {
+    position: relative;
+    top: 4px;
+    margin-right: 8px;
+}
+
+.cart {
+    cursor: pointer;
+}
+
+.active {
+    color: blueBasic;
 }
