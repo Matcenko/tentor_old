@@ -1,9 +1,9 @@
 import React from 'react';
 import style from './Footer.module.css';
 
-const Footer = () => {
+export default () => {
     return (
-        <footer>
+        <footer className={style.footer}>
             <a href="https://www.facebook.com/tentorinua">
                 <img src={require('./img/facebook.svg')} alt="facebook"/>
             </a>
@@ -28,4 +28,3 @@ const Footer = () => {
         </footer>)
 };
 
-export default Footer;

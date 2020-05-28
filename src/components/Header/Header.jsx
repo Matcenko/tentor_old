@@ -1,9 +1,9 @@
 import React from 'react';
 import style from './Header.module.css';
 
-const Header = () => {
+export default () => {
     return (
-        <header>
+        <header className={style.header}>
             <img src={require('./img/logo.svg')} alt='tentor'/>
             <nav className={style.menuWrapper}>
                 <ul className={style.menu}>
@@ -28,5 +28,3 @@ const Header = () => {
             </div>
         </header>)
 };
-
-export default Header;

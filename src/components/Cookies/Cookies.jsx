@@ -14,7 +14,7 @@ export default class Cookies extends Component {
     render() {
         return (
             (!localStorage.agreement && !this.state.agreement) &&
-            <aside>
+            <aside className={style.wrapper}>
                 <img src={require('./img/helm.svg')} alt="helm"/>
                 <p> Мы используем файлы <span className={style.cookies}> cookies</span></p>
                 <button className={style.okButton} onClick={this.agreement}>

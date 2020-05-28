@@ -3,9 +3,7 @@
 @value blueBasic from '../../css/colors.css';
 @value greyLight from '../../css/colors.css';
 
-footer {
-    position: absolute;
-    bottom: 0;
+.footer {
     width: calc(100% - 96px);
     display: flex;
     justify-content: space-between;
@@ -14,6 +12,10 @@ footer {
     background-color: whiteBasic;
     border-top: 1px solid blackBasic;
     color: blackBasic;
+}
+
+.footer a {
+    cursor: pointer;
 }
 
 .developer {
@@ -39,6 +41,3 @@ footer {
     margin-right: 100px;
 }
 
-a {
-    cursor: pointer;
-}

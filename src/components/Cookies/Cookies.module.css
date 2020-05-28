@@ -2,11 +2,11 @@
 @value blackBasic from '../../css/colors.css';
 @value blueBasic from '../../css/colors.css';
 
-aside {
+.wrapper {
     width: 287px;
     position: fixed;
     left: 48px;
-    bottom: 13%;
+    bottom: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;

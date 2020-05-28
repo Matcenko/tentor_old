@@ -1,0 +1,57 @@
+@value blackBasic from '../../css/colors.css';
+@value whiteBasic from '../../css/colors.css';
+
+.header {
+    position: relative;
+    border-bottom: 1px solid blackBasic;
+    height: 100px;
+    padding-top: 13px;
+    background-color: whiteBasic;
+    text-align: center;
+}
+
+.header h2 {
+    font-family: Athelas, sans-serif;
+    font-size: 40px;
+    color: blackBasic;
+}
+
+.logo {
+    position: absolute;
+    left: calc(50% - 145px);
+    width: 300px;
+    height: 110px;
+}
+
+.aboutCompany {
+    padding: 80px 48px 54px;
+}
+
+.aboutCompanyText {
+    font-family: Alef, sans-serif;
+    color: blackBasic;
+}
+
+.preferencesWrapper {
+    margin-top: 64px;
+    text-align: center;
+}
+
+.preferencesWrapper header {
+    font-family: Athelas, sans-serif;
+    font-size: 40px;
+    color: blackBasic;
+}
+
+.preferences {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.preferences p{
+    margin-top: 22px;
+    max-width: 20vw;
+    font-family: AlefBold,sans-serif;
+    font-size: 21px;
+}

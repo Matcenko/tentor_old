@@ -3,7 +3,7 @@
 @value blueBasic from '../../css/colors.css';
 @value greyLight from '../../css/colors.css';
 
-header {
+.header {
     position: sticky;
     top: 0;
     width: calc(100% - 96px);

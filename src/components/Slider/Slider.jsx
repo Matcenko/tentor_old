@@ -51,14 +51,13 @@ export default class Slider extends Component {
                     draggable={false}
                     infinite
                     stopAutoPlayOnHover
-                    clickToChange
                     slides={slideElements}
                 />
                 <div className={style.dots}>
                     {slides.map((slide, i) => {
-                        return <div
-                            className={classNames(style.dot, {[style.activeDot]: i === activeSlide})}
-                            onClick={() => this.onChange(i)}
+                        return <div className={classNames(style.dot, {[style.activeDot]: i === activeSlide})}
+                                    onClick={() => this.onChange(i)}
+                                    key={slide.id}
                         />
                     })}
                 </div>
