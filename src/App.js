@@ -12,7 +12,7 @@ function App() {
         <div>
             <Header/>
             <Cookies/>
-            {/*<Main/>*/}
+            <Main/>
             <Footer/>
         </div>
     );
