@@ -1,0 +1,82 @@
+@value whiteBasic from '../../css/colors.css';
+@value blackBasic from '../../css/colors.css';
+@value greyLight from '../../css/colors.css';
+@value blueBasic from '../../css/colors.css';
+
+.productsPage {
+    background-color: whiteBasic;
+}
+
+.categories {
+    height: calc(100px - 36px);
+    padding: 36px 48px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: greyLight;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    color: blackBasic;
+}
+
+.categories li {
+    max-width: 220px;
+    text-align: center;
+}
+
+.productsAndFilters {
+    display: flex;
+    padding: 0 48px;
+}
+
+.filtersWrapper {
+    width: 320px;
+    border-right: 1px solid blackBasic;
+}
+
+.filter {
+    margin-top: 32px;
+}
+
+.radio, .filterName {
+    max-width: 175px;
+    margin-bottom: 8px;
+    position: relative;
+    left: 24px;
+    font-family: Montserrat, sans-serif;
+    line-height: 22px;
+    color: blackBasic;
+}
+
+.filterName {
+    margin-bottom: 16px;
+    font-size: 18px;
+    left: 0;
+}
+
+.radio:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: -24px;
+    top: calc(50% - 8px);
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid blackBasic;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.products {
+    width: 100%;
+    padding: 16px 0 48px;
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    -ms-grid-rows: 1fr 16px 1fr 16px 1fr;
+}

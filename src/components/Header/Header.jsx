@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './Header.module.css';
+import {NavLink} from 'react-router-dom'
 
 export default () => {
     return (
@@ -7,10 +8,18 @@ export default () => {
             <img src={require('./img/logo.svg')} alt='tentor'/>
             <nav className={style.menuWrapper}>
                 <ul className={style.menu}>
-                    <li className={style.active}>Главная</li>
-                    <li>Товары</li>
-                    <li>Доставка</li>
-                    <li>Контакты</li>
+                    <li><NavLink exact to='/' activeClassName={style.active}>
+                        Главная
+                    </NavLink></li>
+                    <li><NavLink to='/products' activeClassName={style.active}>
+                        Товары
+                    </NavLink></li>
+                    <li><NavLink to='/delivery' activeClassName={style.active}>
+                        Доставка
+                    </NavLink></li>
+                    <li><NavLink to='/contacts' activeClassName={style.active}>
+                        Контакты
+                    </NavLink></li>
                 </ul>
             </nav>
             <div className={style.rightMenu}>

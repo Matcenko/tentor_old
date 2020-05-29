@@ -3,6 +3,8 @@
 @value redBasic from '../../css/colors.css';
 
 .productCardWrapper {
+    display: flex;
+    justify-content: center;
     padding: 4px;
 }
 
