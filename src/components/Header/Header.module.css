@@ -15,7 +15,7 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     font-family: Alef, sans-serif;
     color: blackBasic;
-    z-index: 1;
+    z-index: 2;
 }
 
 .menuWrapper {

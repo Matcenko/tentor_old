@@ -5,7 +5,9 @@ import {NavLink} from 'react-router-dom'
 export default () => {
     return (
         <header className={style.header}>
-            <img src={require('./img/logo.svg')} alt='tentor'/>
+            <NavLink exact to='/'>
+                <img src={require('./img/logo.svg')} alt='tentor'/>
+            </NavLink>
             <nav className={style.menuWrapper}>
                 <ul className={style.menu}>
                     <li><NavLink exact to='/' activeClassName={style.active}>
