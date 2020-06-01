@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b180867cbbef8497f083e8fce059c602",
+    "revision": "1266ccedbb5021dd59ec220de2198db4",
     "url": "/tentor/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tentor/static/css/2.9e5c3921.chunk.css"
   },
   {
-    "revision": "0e55aa7d40c2de9e686a",
+    "revision": "9bb36ef54bd33dc14182",
     "url": "/tentor/static/css/main.682fb107.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tentor/static/js/2.4d0e45b0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0e55aa7d40c2de9e686a",
-    "url": "/tentor/static/js/main.82515dfe.chunk.js"
+    "revision": "9bb36ef54bd33dc14182",
+    "url": "/tentor/static/js/main.49b25d60.chunk.js"
   },
   {
     "revision": "b2850ab4749dc0989a72",
