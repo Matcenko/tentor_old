@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/tentor/static/css/main.682fb107.chunk.css",
+    "main.js": "/tentor/static/js/main.1e12db74.chunk.js",
+    "main.js.map": "/tentor/static/js/main.1e12db74.chunk.js.map",
+    "runtime-main.js": "/tentor/static/js/runtime-main.0e187cee.js",
+    "runtime-main.js.map": "/tentor/static/js/runtime-main.0e187cee.js.map",
+    "static/css/2.9e5c3921.chunk.css": "/tentor/static/css/2.9e5c3921.chunk.css",
+    "static/js/2.4d0e45b0.chunk.js": "/tentor/static/js/2.4d0e45b0.chunk.js",
+    "static/js/2.4d0e45b0.chunk.js.map": "/tentor/static/js/2.4d0e45b0.chunk.js.map",
+    "index.html": "/tentor/index.html",
+    "precache-manifest.dece4e12ecb9dce54cd87bb780a47d75.js": "/tentor/precache-manifest.dece4e12ecb9dce54cd87bb780a47d75.js",
+    "service-worker.js": "/tentor/service-worker.js",
+    "static/css/2.9e5c3921.chunk.css.map": "/tentor/static/css/2.9e5c3921.chunk.css.map",
+    "static/css/main.682fb107.chunk.css.map": "/tentor/static/css/main.682fb107.chunk.css.map",
+    "static/js/2.4d0e45b0.chunk.js.LICENSE.txt": "/tentor/static/js/2.4d0e45b0.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/tentor/static/media/Roboto-Medium.58aef543.ttf",
+    "static/media/arrow.svg": "/tentor/static/media/arrow.6d320f49.svg",
+    "static/media/binoculars.svg": "/tentor/static/media/binoculars.cc8eeaa7.svg",
+    "static/media/boat_slide2.png": "/tentor/static/media/boat_slide2.453fea76.png",
+    "static/media/camping_slide3.png": "/tentor/static/media/camping_slide3.2128bd55.png",
+    "static/media/cart.svg": "/tentor/static/media/cart.33837402.svg",
+    "static/media/category1.png": "/tentor/static/media/category1.2c876973.png",
+    "static/media/category2.png": "/tentor/static/media/category2.fc84d9c3.png",
+    "static/media/facebook.svg": "/tentor/static/media/facebook.17789f2b.svg",
+    "static/media/helm.svg": "/tentor/static/media/helm.0f182252.svg",
+    "static/media/logo.svg": "/tentor/static/media/logo.3e85982a.svg",
+    "static/media/preference.svg": "/tentor/static/media/preference.4c0e6b89.svg",
+    "static/media/productAvatar.png": "/tentor/static/media/productAvatar.1cf9b186.png",
+    "static/media/tackle_slide1.png": "/tentor/static/media/tackle_slide1.5b3da9f2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e187cee.js",
+    "static/css/2.9e5c3921.chunk.css",
+    "static/js/2.4d0e45b0.chunk.js",
+    "static/css/main.682fb107.chunk.css",
+    "static/js/main.1e12db74.chunk.js"
+  ]
+}
