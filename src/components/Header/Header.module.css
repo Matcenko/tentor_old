@@ -28,13 +28,16 @@
     justify-content: space-around;
 }
 
-.menu li:hover:after {
+.menu li:after {
     content: '';
     display: block;
     width: 100%;
     height: 1px;
-    background-color: greyLight;
     cursor: pointer;
+}
+
+.menu li:hover:after {
+    background-color: greyLight;
 }
 
 .rightMenu {
