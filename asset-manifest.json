@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tentor/static/css/main.682fb107.chunk.css",
-    "main.js": "/tentor/static/js/main.1e12db74.chunk.js",
-    "main.js.map": "/tentor/static/js/main.1e12db74.chunk.js.map",
+    "main.js": "/tentor/static/js/main.82515dfe.chunk.js",
+    "main.js.map": "/tentor/static/js/main.82515dfe.chunk.js.map",
     "runtime-main.js": "/tentor/static/js/runtime-main.0e187cee.js",
     "runtime-main.js.map": "/tentor/static/js/runtime-main.0e187cee.js.map",
     "static/css/2.9e5c3921.chunk.css": "/tentor/static/css/2.9e5c3921.chunk.css",
     "static/js/2.4d0e45b0.chunk.js": "/tentor/static/js/2.4d0e45b0.chunk.js",
     "static/js/2.4d0e45b0.chunk.js.map": "/tentor/static/js/2.4d0e45b0.chunk.js.map",
     "index.html": "/tentor/index.html",
-    "precache-manifest.dece4e12ecb9dce54cd87bb780a47d75.js": "/tentor/precache-manifest.dece4e12ecb9dce54cd87bb780a47d75.js",
+    "precache-manifest.6d655438510b64a087a3222ac146c6b9.js": "/tentor/precache-manifest.6d655438510b64a087a3222ac146c6b9.js",
     "service-worker.js": "/tentor/service-worker.js",
     "static/css/2.9e5c3921.chunk.css.map": "/tentor/static/css/2.9e5c3921.chunk.css.map",
     "static/css/main.682fb107.chunk.css.map": "/tentor/static/css/main.682fb107.chunk.css.map",
@@ -34,6 +34,6 @@
     "static/css/2.9e5c3921.chunk.css",
     "static/js/2.4d0e45b0.chunk.js",
     "static/css/main.682fb107.chunk.css",
-    "static/js/main.1e12db74.chunk.js"
+    "static/js/main.82515dfe.chunk.js"
   ]
 }

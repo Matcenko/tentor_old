@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tentor/precache-manifest.dece4e12ecb9dce54cd87bb780a47d75.js"
+  "/tentor/precache-manifest.6d655438510b64a087a3222ac146c6b9.js"
 );
 
 self.addEventListener('message', (event) => {
