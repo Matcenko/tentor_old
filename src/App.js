@@ -19,6 +19,7 @@ function App() {
                 <Switch>
                     <Route exact component={MainPage} path='/'/>
                     <Route exact component={ProductsPage} path='/products'/>
+                    <Route component={MainPage}/>
                 </Switch>
                 <Footer/>
             </div>
