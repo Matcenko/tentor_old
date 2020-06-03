@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1266ccedbb5021dd59ec220de2198db4",
+    "revision": "a43d2f0971783f93069b73e87a328caa",
     "url": "/tentor/index.html"
   },
   {
-    "revision": "8b12ebc3394b8f60699b",
+    "revision": "eb08d7889a59fc693365",
     "url": "/tentor/static/css/2.9e5c3921.chunk.css"
   },
   {
-    "revision": "9bb36ef54bd33dc14182",
-    "url": "/tentor/static/css/main.682fb107.chunk.css"
+    "revision": "6ca25128fbd54735b200",
+    "url": "/tentor/static/css/main.ee47e05d.chunk.css"
   },
   {
-    "revision": "8b12ebc3394b8f60699b",
-    "url": "/tentor/static/js/2.4d0e45b0.chunk.js"
+    "revision": "eb08d7889a59fc693365",
+    "url": "/tentor/static/js/2.a8536a7a.chunk.js"
   },
   {
     "revision": "4d7749ba1ea6a5029026f2621a685668",
-    "url": "/tentor/static/js/2.4d0e45b0.chunk.js.LICENSE.txt"
+    "url": "/tentor/static/js/2.a8536a7a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9bb36ef54bd33dc14182",
-    "url": "/tentor/static/js/main.49b25d60.chunk.js"
+    "revision": "6ca25128fbd54735b200",
+    "url": "/tentor/static/js/main.e8fb810a.chunk.js"
   },
   {
     "revision": "b2850ab4749dc0989a72",
