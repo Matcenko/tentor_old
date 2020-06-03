@@ -1,0 +1,3 @@
+export const
+    SET_LANG = 'SET_LANG',
+    SET_COOKIES_AGREEMENT = 'SET_COOKIES_AGREEMENT';

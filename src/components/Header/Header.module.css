@@ -50,6 +50,7 @@
 .search {
     position: relative;
     bottom: 2px;
+    display: flex;
     font-size: 12px;
     cursor: pointer;
 }
@@ -60,10 +61,23 @@
     margin-right: 8px;
 }
 
+.searchInput {
+    margin-left: 8px;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid blackBasic;
+}
+
 .cart {
+    position: absolute;
+    right: 85px;
     cursor: pointer;
 }
 
 .active {
     color: blueBasic;
+}
+
+.lang {
+    cursor: pointer;
 }

@@ -18,7 +18,7 @@ export default () => {
             </header>
             <div className={style.products}>
                 {productCategories.map(product => {
-                    return <div className={style.productCategory}>
+                    return <div key={product.id} className={style.productCategory}>
                         <img src={product.src} alt={product.name}/>
                         <p>{product.name}</p>
                     </div>

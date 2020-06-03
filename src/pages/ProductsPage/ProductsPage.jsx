@@ -71,11 +71,11 @@ export default class ProductsPage extends Component {
                                     <p className={style.filterName}>
                                         {filter.name}
                                     </p>
-                                    {filter.values.map(value => {
+                                    {filter.values.map((value, i) => {
                                         return (
-                                            <li className={style[filter.type]}>
-                                                <input className={style.hidden} type={filter.type} id={value}/>
-                                                <label htmlFor={value}>
+                                            <li className={style[filter.type]} key={filter.id + value}>
+                                                <input className={style.hidden} type={filter.type} id={value + i}/>
+                                                <label htmlFor={value + i}>
                                                     {value}
                                                 </label>
                                             </li>)
