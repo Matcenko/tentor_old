@@ -4,12 +4,14 @@ import {NavLink} from 'react-router-dom'
 import {connect} from 'react-redux';
 import classNames from 'classnames';
 
+import propOr from "../../../../utils/propOr";
 import setLang from "../../../redux/actions/setLang";
 import style from './Header.module.css';
 
 const mapStateToProps = ({application}) => {
     return {
-        lang: application.lang
+        lang: application.lang,
+        langMap: application.langMap,
     };
 };
 
@@ -22,7 +24,8 @@ const mapDispatchToProps = dispatch => {
 const Header = props => {
     const [inputValue, setInputValue] = useState('');
     const [searchIsActive, setSearchIsActive] = useState(false);
-    const {lang, setLang} = props;
+    const {lang, langMap, setLang} = props;
+    const texts = propOr(langMap, [lang, 'header'], '');
 
     return (
         <header className={style.header}>
@@ -31,18 +34,15 @@ const Header = props => {
             </NavLink>
             <nav className={style.menuWrapper}>
                 <ul className={style.menu}>
-                    <li><NavLink exact to='/' activeClassName={style.active}>
-                        Главная
-                    </NavLink></li>
-                    <li><NavLink to='/products' activeClassName={style.active}>
-                        Товары
-                    </NavLink></li>
-                    <li><NavLink to='/delivery' activeClassName={style.active}>
-                        Доставка
-                    </NavLink></li>
-                    <li><NavLink to='/contacts' activeClassName={style.active}>
-                        Контакты
-                    </NavLink></li>
+                    {texts.links.map(link => {
+                        return (
+                            <li key={link.link}>
+                                <NavLink exact to={link.link}
+                                         activeClassName={style.active}>
+                                    {link.name}
+                                </NavLink>
+                            </li>)
+                    })}
                 </ul>
             </nav>
             <div className={style.rightMenu}>
@@ -51,7 +51,7 @@ const Header = props => {
                         <img className={style.binoculars}
                              src={require('./img/binoculars.svg')}
                              alt='binoculars'/>
-                        <span>Поиск...</span>
+                        <span>{texts.search}...</span>
                     </div>
                     {searchIsActive &&
                     <input className={style.searchInput}
