@@ -1,0 +1,59 @@
+@value whiteBasic from '../../../../css/colors.css';
+@value blackBasic from '../../../../css/colors.css';
+@value redBasic from '../../../../css/colors.css';
+
+.productCardWrapper {
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+}
+
+.productCard {
+    width: 276px;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    background-color: whiteBasic;
+    box-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25);
+    font-family: AlefBold, sans-serif;
+    cursor: pointer;
+}
+
+.productAvatar {
+    width: 100%;
+    height: 75%;
+}
+
+.productName {
+    padding: 0 16px;
+    text-align: center;
+    font-size: 16px;
+    color: blackBasic;
+    word-wrap: break-word;
+}
+
+.buySection {
+    padding: 0 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart {
+    position: relative;
+    top: 2px;
+    height: 16px;
+    width: 16px;
+}
+
+.buy {
+    font-size: 12px;
+}
+
+.price {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: redBasic;
+}

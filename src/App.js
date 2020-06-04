@@ -5,12 +5,12 @@ import './css/main.css';
 
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
-import getStore from "./redux/store/getStore";
-import Header from "./components/Header/Header.jsx";
-import Cookies from "./components/Cookies/Cookies";
-import MainPage from "./pages/MainPage/MainPage";
-import ProductsPage from "./pages/ProductsPage/ProductsPage";
-import Footer from "./components/Footer/Footer";
+import getStore from "./application/redux/store/getStore";
+import Header from "./application/ui/components/Header/Header.jsx";
+import Cookies from "./application/ui/components/Cookies/Cookies";
+import MainPage from "./application/ui/pages/MainPage/MainPage";
+import ProductsPage from "./application/ui/pages/ProductsPage/ProductsPage";
+import Footer from "./application/ui/components/Footer/Footer";
 
 const store = getStore();
 

@@ -1,0 +1,54 @@
+@value blueBasic from '../../../../css/colors.css';
+@value blackBasic from '../../../../css/colors.css';
+@value whiteBasic from '../../../../css/colors.css';
+
+.carouselWrapper {
+    position: relative;
+}
+
+.slide {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 100px);
+    cursor: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.slideName {
+    position: absolute;
+    bottom: 64px;
+    right: 0;
+    width: 50vw;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 0 0 8px;
+    background-color: whiteBasic;
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    color: blackBasic;
+}
+
+.dots {
+    position: absolute;
+    right: 48px;
+    bottom: 32px;
+    width: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: blueBasic;
+    cursor: pointer;
+}
+
+.activeDot {
+    background-color: whiteBasic;
+}
