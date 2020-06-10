@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Provider} from 'react-redux';
-import './App.css';
 import './css/main.css';
+import style from './App.module.css';
 
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
@@ -19,14 +19,16 @@ class App extends Component {
         return (
             <Provider store={store}>
                 <BrowserRouter>
-                    <div>
-                        <Header/>
+                    <div className={style.app}>
                         <Cookies/>
-                        <Switch>
-                            <Route exact component={MainPage} path='/'/>
-                            <Route exact component={ProductsPage} path='/products'/>
-                            <Route component={MainPage}/>
-                        </Switch>
+                        <div className={style.page}>
+                        <Header/>
+                            <Switch>
+                                <Route exact component={MainPage} path='/'/>
+                                <Route exact component={ProductsPage} path='/products'/>
+                                <Route component={MainPage}/>
+                            </Switch>
+                        </div>
                         <Footer/>
                     </div>
                 </BrowserRouter>

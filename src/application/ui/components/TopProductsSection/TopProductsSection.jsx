@@ -1,19 +1,33 @@
 import React, { useState} from 'react';
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
+import {NavLink} from "react-router-dom";
+import {connect} from 'react-redux';
 
 import ProductCard from "../ProductCard/ProductCard";
 import style from './TopProductsSection.module.css';
-import {NavLink} from "react-router-dom";
 
-const topProducts = [<ProductCard/>, <ProductCard/>, <ProductCard/>, <ProductCard/>, <ProductCard/>];
+const mapStateToProps = ({application, products}) => {
+    return {
+        lang: application.lang,
+        products: products.products
+    };
+};
 
-const TopProductsSection = () => {
+const TopProductsSection = props => {
     const onChange = value => {
         setActiveProduct(activeProduct + value)
     };
 
     const [activeProduct, setActiveProduct] = useState(0);
+    const topProducts = props.products
+        .filter(product => product.isTop)
+        .map(topProduct => <ProductCard
+            name={topProduct[props.lang].name}
+            img={topProduct.img}
+            price={topProduct.price}
+        />)
+
     return (
         <section>
             <header className={style.header}>
@@ -48,4 +62,4 @@ const TopProductsSection = () => {
         </section>)
 };
 
-export default TopProductsSection;
+export default connect(mapStateToProps)(TopProductsSection);

@@ -2,11 +2,12 @@ import {
     SET_LANG,
     SET_COOKIES_AGREEMENT
 } from '../types/types';
+import {DEFAULT_LANG} from '../../constants/constants'
 import langMap from "../../languages/langMap";
 
 const initialState = {
     cookiesAgreement: false,
-    lang: 'ua',
+    lang: DEFAULT_LANG,
     langMap
 };
 

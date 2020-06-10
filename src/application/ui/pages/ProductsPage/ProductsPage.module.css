@@ -5,10 +5,11 @@
 
 .productsPage {
     background-color: whiteBasic;
+    height: 100%;
 }
 
 .categories {
-    height: calc(100px - 36px);
+    height: 64px;
     padding: 36px 48px 0;
     display: flex;
     justify-content: space-between;
@@ -18,14 +19,20 @@
     color: blackBasic;
 }
 
-.categories li {
-    max-width: 220px;
+.category {
+    max-width: 240px;
     text-align: center;
+    cursor: pointer;
+}
+
+.activeCategory {
+    color: blueBasic;
 }
 
 .productsAndFilters {
     display: flex;
     padding: 0 48px;
+    height: calc(100% - 128px);
 }
 
 .filtersWrapper {
@@ -136,7 +143,6 @@
     height: 1px;
     width: 80px;
     background-color: blackBasic;
-
 }
 
 .products {
