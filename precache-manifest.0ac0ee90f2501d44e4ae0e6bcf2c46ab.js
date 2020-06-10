@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2afc1ef46fd0995127f39b455036a35f",
+    "revision": "be7ec0799f15dc5356e3b7b0df765fd7",
     "url": "/tentor/index.html"
   },
   {
-    "revision": "25dfbac9a199b9935d8c",
+    "revision": "967f6028dd975d402015",
     "url": "/tentor/static/css/2.9e5c3921.chunk.css"
   },
   {
-    "revision": "dc58aa3d5e09121bf4cc",
-    "url": "/tentor/static/css/main.eddffd35.chunk.css"
+    "revision": "61a0c4d6f5e5868fbac2",
+    "url": "/tentor/static/css/main.1ece642c.chunk.css"
   },
   {
-    "revision": "25dfbac9a199b9935d8c",
-    "url": "/tentor/static/js/2.458a5d67.chunk.js"
+    "revision": "967f6028dd975d402015",
+    "url": "/tentor/static/js/2.39d2d673.chunk.js"
   },
   {
     "revision": "4d7749ba1ea6a5029026f2621a685668",
-    "url": "/tentor/static/js/2.458a5d67.chunk.js.LICENSE.txt"
+    "url": "/tentor/static/js/2.39d2d673.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc58aa3d5e09121bf4cc",
-    "url": "/tentor/static/js/main.cf853e5c.chunk.js"
+    "revision": "61a0c4d6f5e5868fbac2",
+    "url": "/tentor/static/js/main.f3fa2a85.chunk.js"
   },
   {
     "revision": "b2850ab4749dc0989a72",
@@ -88,16 +88,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tentor/static/media/helm.0f182252.svg"
   },
   {
+    "revision": "2e22e470eed5042b5a4cd4f2d63ac7fa",
+    "url": "/tentor/static/media/i0m7TsA.2e22e470.png"
+  },
+  {
     "revision": "3e85982a9012f5fcbf73d9c8570be1e0",
     "url": "/tentor/static/media/logo.3e85982a.svg"
   },
   {
     "revision": "4c0e6b8956e76523fd9953e4b15d55a3",
     "url": "/tentor/static/media/preference.4c0e6b89.svg"
-  },
-  {
-    "revision": "1cf9b186964ecc1ffb0fa1e682290a8e",
-    "url": "/tentor/static/media/productAvatar.1cf9b186.png"
   },
   {
     "revision": "5b3da9f208dce3104733d2cebb28a8bc",
