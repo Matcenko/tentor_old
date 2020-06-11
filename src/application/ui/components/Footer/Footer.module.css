@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 24px 48px;
+    min-height: 48px;
     background-color: whiteBasic;
     border-top: 1px solid blackBasic;
     color: blackBasic;
