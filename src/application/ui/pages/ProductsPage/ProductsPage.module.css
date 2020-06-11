@@ -5,6 +5,7 @@
 
 .productsPage {
     background-color: whiteBasic;
+    min-height: 100vh;
     height: 100%;
 }
 
@@ -29,16 +30,21 @@
     color: blueBasic;
 }
 
-.productsAndFilters {
+.filtersAndProducts {
     display: flex;
     padding: 0 48px;
     height: calc(100% - 128px);
 }
 
-.filtersWrapper {
+.filtersBorder {
     padding-right: 48px;
-    width: 320px;
+    width: 220px;
     border-right: 1px solid blackBasic;
+}
+
+.filtersWrapper {
+    position: sticky;
+    top: 130px;
 }
 
 .filter {
@@ -109,6 +115,8 @@
     border-radius: 50%;
 }
 
+
+
 .sliderContainer span {
     display: none;
 }
@@ -146,7 +154,6 @@
 }
 
 .products {
-    width: 100%;
     padding: 16px 0 48px;
     display: grid;
     display: -ms-grid;

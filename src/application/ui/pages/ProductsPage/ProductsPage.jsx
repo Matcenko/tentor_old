@@ -84,9 +84,11 @@ class ProductsPage extends Component {
         const borderValue = priceRangeBorders[type];
 
         if (type === 'min' && currentValue < borderValue) {
-            this.setState({priceRangeValue: {...priceRangeValue, min: +borderValue}})
+            this.setState(
+                {priceRangeValue: {...priceRangeValue, min: +borderValue}})
         } else if (type === 'max' && currentValue > borderValue) {
-            this.setState({priceRangeValue: {...priceRangeValue, max: +borderValue}})
+            this.setState(
+                {priceRangeValue: {...priceRangeValue, max: +borderValue}})
         }
     }
 
@@ -111,54 +113,58 @@ class ProductsPage extends Component {
                         })}
                     </ul>
                 </nav>
-                <div className={style.productsAndFilters}>
-                    <nav className={style.filtersWrapper}>
-                        <div className={style.filter}>
-                            <p className={style.filterName}>
-                                Цена:
-                            </p>
-                            <InputRange
-                                classNames={{
-                                    sliderContainer: style.sliderContainer,
-                                    inputRange: style.inputRange,
-                                    track: style.track,
-                                    slider: style.slider,
-                                    minLabel: style.hidden,
-                                    maxLabel: style.hidden
-                                }}
-                                maxValue={max}
-                                minValue={min}
-                                value={priceRangeValue}
-                                onChange={priceRangeValue => this.setPriceRangeValue(priceRangeValue)}
-                            />
-                            <div className={style.priceInputs}>
-                                <input onChange={this.inputChangePrice('min')}
-                                       value={priceRangeValue.min}
-                                       onBlur={() => this.inputPriceOnBlur('min')}
-                                       type="text"/>
-                                <input onChange={this.inputChangePrice('max')}
-                                       value={priceRangeValue.max}
-                                       onBlur={() => this.inputPriceOnBlur('max')}
-                                       type="text"/>
+                <div className={style.filtersAndProducts}>
+                    <nav className={style.filtersBorder}>
+                        <div className={style.filtersWrapper}>
+                            <div className={style.filter}>
+                                <p className={style.filterName}>
+                                    Цена:
+                                </p>
+                                <InputRange
+                                    classNames={{
+                                        sliderContainer: style.sliderContainer,
+                                        inputRange: style.inputRange,
+                                        track: style.track,
+                                        slider: style.slider,
+                                        minLabel: style.hidden,
+                                        maxLabel: style.hidden
+                                    }}
+                                    allowSameValues={true}
+                                    step={10}
+                                    maxValue={max}
+                                    minValue={min}
+                                    value={priceRangeValue}
+                                    onChange={priceRangeValue => this.setPriceRangeValue(priceRangeValue)}
+                                />
+                                <div className={style.priceInputs}>
+                                    <input onChange={this.inputChangePrice('min')}
+                                           value={priceRangeValue.min}
+                                           onBlur={() => this.inputPriceOnBlur('min')}
+                                           type="text"/>
+                                    <input onChange={this.inputChangePrice('max')}
+                                           value={priceRangeValue.max}
+                                           onBlur={() => this.inputPriceOnBlur('max')}
+                                           type="text"/>
+                                </div>
                             </div>
+                            {filters.map(filter => {
+                                return (
+                                    <ul className={style.filter} id={filter.id} key={filter.id}>
+                                        <p className={style.filterName}>
+                                            {filter.name}
+                                        </p>
+                                        {filter.values.map((value, i) => {
+                                            return (
+                                                <li className={style[filter.type]} key={filter.id + value}>
+                                                    <input className={style.hidden} type={filter.type} id={value + i}/>
+                                                    <label htmlFor={value + i}>
+                                                        {value}
+                                                    </label>
+                                                </li>)
+                                        })}
+                                    </ul>)
+                            })}
                         </div>
-                        {filters.map(filter => {
-                            return (
-                                <ul className={style.filter} id={filter.id} key={filter.id}>
-                                    <p className={style.filterName}>
-                                        {filter.name}
-                                    </p>
-                                    {filter.values.map((value, i) => {
-                                        return (
-                                            <li className={style[filter.type]} key={filter.id + value}>
-                                                <input className={style.hidden} type={filter.type} id={value + i}/>
-                                                <label htmlFor={value + i}>
-                                                    {value}
-                                                </label>
-                                            </li>)
-                                    })}
-                                </ul>)
-                        })}
                     </nav>
                     <section className={style.products}>
                         {filteredProducts.map(product => {
