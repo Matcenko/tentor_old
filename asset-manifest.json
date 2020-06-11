@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/tentor/static/css/main.1ece642c.chunk.css",
-    "main.js": "/tentor/static/js/main.f3fa2a85.chunk.js",
-    "main.js.map": "/tentor/static/js/main.f3fa2a85.chunk.js.map",
+    "main.css": "/tentor/static/css/main.863d2d04.chunk.css",
+    "main.js": "/tentor/static/js/main.398e5601.chunk.js",
+    "main.js.map": "/tentor/static/js/main.398e5601.chunk.js.map",
     "runtime-main.js": "/tentor/static/js/runtime-main.0e187cee.js",
     "runtime-main.js.map": "/tentor/static/js/runtime-main.0e187cee.js.map",
     "static/css/2.9e5c3921.chunk.css": "/tentor/static/css/2.9e5c3921.chunk.css",
-    "static/js/2.39d2d673.chunk.js": "/tentor/static/js/2.39d2d673.chunk.js",
-    "static/js/2.39d2d673.chunk.js.map": "/tentor/static/js/2.39d2d673.chunk.js.map",
+    "static/js/2.f2ce578c.chunk.js": "/tentor/static/js/2.f2ce578c.chunk.js",
+    "static/js/2.f2ce578c.chunk.js.map": "/tentor/static/js/2.f2ce578c.chunk.js.map",
     "index.html": "/tentor/index.html",
-    "precache-manifest.0ac0ee90f2501d44e4ae0e6bcf2c46ab.js": "/tentor/precache-manifest.0ac0ee90f2501d44e4ae0e6bcf2c46ab.js",
+    "precache-manifest.5f913097b43d29861b02f74bb83a2173.js": "/tentor/precache-manifest.5f913097b43d29861b02f74bb83a2173.js",
     "service-worker.js": "/tentor/service-worker.js",
     "static/css/2.9e5c3921.chunk.css.map": "/tentor/static/css/2.9e5c3921.chunk.css.map",
-    "static/css/main.1ece642c.chunk.css.map": "/tentor/static/css/main.1ece642c.chunk.css.map",
-    "static/js/2.39d2d673.chunk.js.LICENSE.txt": "/tentor/static/js/2.39d2d673.chunk.js.LICENSE.txt",
+    "static/css/main.863d2d04.chunk.css.map": "/tentor/static/css/main.863d2d04.chunk.css.map",
+    "static/js/2.f2ce578c.chunk.js.LICENSE.txt": "/tentor/static/js/2.f2ce578c.chunk.js.LICENSE.txt",
     "static/media/main.css": "/tentor/static/media/Roboto-Medium.58aef543.ttf",
     "static/media/arrow.svg": "/tentor/static/media/arrow.6d320f49.svg",
     "static/media/binoculars.svg": "/tentor/static/media/binoculars.cc8eeaa7.svg",
@@ -32,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.0e187cee.js",
     "static/css/2.9e5c3921.chunk.css",
-    "static/js/2.39d2d673.chunk.js",
-    "static/css/main.1ece642c.chunk.css",
-    "static/js/main.f3fa2a85.chunk.js"
+    "static/js/2.f2ce578c.chunk.js",
+    "static/css/main.863d2d04.chunk.css",
+    "static/js/main.398e5601.chunk.js"
   ]
 }
